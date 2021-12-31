@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Trebuchet, sans-serif;
+}
+
+main {
+	/*border: 1px solid orange;*/
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+}
+
+#esquerdo {
+	background-color: #203572;
+	color: white;
+	width: 380px;
+}
+
+#esquerdo h2 {
+	font-size: 1.25em;
+	color: #3FC7DF;
+	padding-bottom: 12px;
+}
+
+#esquerdo p {
+	font-size: 0.9em;
+}
+
+#conteudo-esquerdo {
+	max-width: 240px;
+	margin: auto;
+}
+
+#nome {
+	margin-bottom: 28px;
+}
+
+#nome h1 {
+	color: #3FC7DF;
+	font-size: 2.3em;
+	padding-top: 48px;
+	padding-bottom: 24px;
+	font-weight: bold;
+}
+
+#nome h2 {
+	color: white;
+	font-size: 1.25em;
+	font-weight: normal;
+
+}
+
+#carreira, #competencia, #contato {
+	margin-bottom: 28px;
+}
+
+#competencia ul li {
+	font-size: 0.9em;
+}
+
+#projetos {
+	padding-bottom: 48px;
+}
+
+#projetos a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+#projetos a:hover {
+	text-decoration: underline;
+}
+
+/* = = = = = = = = = = = = = = = = = */
+#direito {
+	width: 400px;
+}
+
+#conteudo-direito {
+	/*border: 1px solid red;*/
+	max-width: 260px;
+	margin: auto;
+}
+
+#tecnologias {
+	/*border: 1px solid red;*/
+	margin-bottom: 28px;
+}
+
+#tecnologias h2 {
+	margin-top: 48px;
+	color: #3FC7DF;
+	background-color: #203572;
+	padding: 4px;
+	font-size: 1em;
+	margin-bottom: 12px;
+}
+
+#tecnologias p {
+	font-size: 0.9em;
+	color: #222;
+}
+
+#formacao h2 {
+	color: #3FC7DF;
+	background-color: #203572;
+	padding: 4px;
+	font-size: 1em;
+	margin-bottom: 28px;
+}
+
+#formacao P {
+	color: #222;
+}
